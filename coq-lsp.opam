@@ -45,7 +45,7 @@ depends: [
 
   # Rocq
   "rocq-core"          { >= "9.1" < "9.2"  }
-  "rocq-stdlib"        { >= "9" & with-test }
+  "rocq-stdlib"        { >= "9.1" & < "9.2" & with-test }
 
   # serlib deps
   "ppx_deriving"        { >= "5.2"                 }
